@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card mt-5 w-100 border-light-subtle">
+                    <div 
+                        class="card-header container-fluid d-flex justify-content-start align-items-center bg-white border-light-subtle">
+                        <div class="card-text d-flex flex-column">
+                            <b>Hotel</b>
+                            <small>Monday, 2 Jan, 2023</small>
+                        </div>
+                        <button class="btn btn-sm btn-success ms-3" type="button">
+                            <i class="bi bi-check-circle"></i>
+                            Booked
+                        </button>
+                        <button class="btn btn-sm btn-primary ms-3" type="button">
+                            <i class="bi bi-card-text"></i>
+                            Booking ID: TPHG54
+                        </button>
+                        <nav class="navbar navbar-expand-lg bg-light rounded-2 ms-auto">
+                            <div class="container-fluid">
+                                <button
+                                    type="button"
+                                    class="navbar-toggler"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#nav"
+                                    aria-controls="nav"
+                                    aria-expanded="false"
+                                    aria-label="Toggle Navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="nav">
+                                    <div class="navbar-nav">
+                                        <li class="nav-item d-flex flex-column">
+                                            <i class="ms-5 bi bi-envelope"></i>
+                                            <a 
+                                                href="#" 
+                                                class="nav-link dropdown-toggle"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                                data-bs-offset="10,20">
+                                                Send Email
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <a href="#" class="dropdown-item">Open Gmail</a>
+                                                <a href="#" class="dropdown-item">Open Outlook</a>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item d-flex flex-column">
+                                            <i class="ms-4 bi bi-arrow-left-right"></i>
+                                            <a href="#" class="nav-link">
+                                                Change
+                                            </a>
+                                        </li>
+                                        <li class="nav-item d-flex flex-column">
+                                            <i class="ms-4 bi bi-x-lg"></i>
+                                            <a href="#" class="nav-link">
+                                                Cancel
+                                            </a>
+                                        </li>
+                                        <li class="nav-item btn-group dropup dropup-center d-flex flex-column">
+                                            <i class="ms-4 bi bi-info-circle"></i>
+                                            <a 
+                                                href="#" 
+                                                class="nav-link dropdown-toggle"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                                data-bs-offset="10,20">
+                                                More
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <a href="#" class="dropdown-item">More Details</a>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <a
+                            role="button"
+                            href="#"
+                            class="btn btn-lg me-1">
+                            <i class="bi bi-plus-lg"></i>
+                        </a>
+                        <div class="accordion accordion-flush" id="accordion_example">          
+                            <button 
+                                class="accordion-button btn-sm p-2 ms-auto mb-auto rounded" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#collapseOne" 
+                                aria-expanded="true" 
+                                aria-controls="collapseOne"
+                                style="width: 40px;">
+                            </button>
+                        </div>     
+                    </div>
+                    <div 
+                        id="collapseOne" 
+                        class="accordion-collapse collapse show" 
+                        aria-labelledby="headingOne" 
+                        data-bs-parent="#accordion_example">
+                        <div class="accordion-body">
+                            <div class="card-body">
+                                <div class="card bg-light border-light-subtle">
+                                    <span class="ms-auto">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </span>
+                                    <div class="container d-flex mt-3">
+                                        <!-- <i class="fa-solid fa-arrow-up-right-from-square"></i> -->
+                                        <img class="rounded mt-1" src="./assets/hotel.jpg" alt="hotel-image" style="height: 98px; width: 98px;">
+                                        <div class="ms-3">
+                                            <h6>Double Tree by Hilton</h6>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <p class="mb-0 mt-2"><small>Knightsbridge, London</small></p>
+                                            <p class="fw-lighter text-muted">0.4 miles away from city center</p>
+                                        </div>
+                                        <div class="vr ms-3"></div>
+                                        <div class="d-flex">
+                                            <div class="ms-5 mt-3">
+                                                <p class="text-muted mb-0">
+                                                    Check in
+                                                    <p class="fw-semibold mb-0">Jan 23, 2023</p>
+                                                    4:00 PM to 4:00 AM
+                                                </p>
+                                            </div>
+                                            <div class="ms-5 mt-3">
+                                                <p class="text-muted mb-0">
+                                                    Check out
+                                                    <p class="fw-semibold mb-0">Jan 25, 2023</p>
+                                                    12:00 PM
+                                                </p>
+                                            </div>
+                                            <div class="ms-5 mt-3">
+                                                <p class="text-muted mb-0">
+                                                    Room/Guests
+                                                    <p class="fw-semibold mb-0">1 Room | 2 Guests</p>
+                                                    2 Nights
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="vr ms-5"></div>
+                                        <div class="ms-5">
+                                            <h6 class="">Traveller Price</h6>
+                                            <p class="mb-0 fs-3 fw-bold">
+                                                $190
+                                                <i class="bi bi-info-circle-fill fs-6"></i>
+                                            </p>
+                                            <small>Per Person</small>
+                                        </div>
+                                        <div class="ms-5 bg-primary-subtle h-25 rounded p-1">
+                                            Earnings
+                                            <p class="text-success mb-0">$30</p>
+                                        </div>  
+                                    </div>
+                                    <div class="container d-flex mb-4 mt-1">
+                                        <img class="rounded mt-1 ms-3" src="./assets/room.jpeg" alt="hotel-image" style="height: 70px; width: 70px;">
+                                        <div class="ms-5">
+                                            <h6 class="fw-semibold">Standard Room</h6>
+                                            <p class="mb-0 mt-2">
+                                                <i class="fa-solid fa-bed"></i>
+                                                <small>Bed Type: King Bed</small>
+                                            </p>
+                                            <p class="mb-0 mt-2">
+                                                <i class="bi bi-fullscreen"></i>
+                                                <small>Room Size: 645 sq.ft.</small>
+                                            </p>
+                                        </div>
+                                        <p class="mb-0 mt-2 ms-5">
+                                            <i class="bi bi-window-sidebar"></i>
+                                            View: Lake View<br>
+                                            <a href="#" class="ms-4 text-black">5 more</a>
+                                        </p>
+                                        <div class="ms-5 mt-1">
+                                            <p class="mb-0 text-success bg-success-subtle rounded p-1">
+                                                Free Cancellation
+                                            </p>
+                                            <p class="mb-0 text-success">
+                                                Free Breakfast
+                                            </p>
+                                        </div>
+                                        <div class="ms-5 mt-2">
+                                            <p>
+                                                <i class="bi bi-chat-text-fill"></i>
+                                                <b>8.3</b>/10<br>
+                                                <small>2486 reviews</small>
+                                            </p>
+                                        </div>                                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer d-flex justify-content-start align-items-center bg-white border-light-subtle p-4">
+                                <button 
+                                    type="button" 
+                                    class="bg-white dropdown-toggle border border-dark-subtle rounded p-2 me-2"
+                                    data-bs-toggle="dropdown"
+                                    id="details"
+                                    aria-expanded="false">
+                                    Details
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="details">
+                                    <a href="#" class="dropdown-item">Open more Details</a>
+                                </ul>
+                                <button 
+                                    type="button" 
+                                    class="bg-white dropdown-toggle border border-dark-subtle rounded p-2 me-2"
+                                    data-bs-toggle="dropdown"
+                                    id="travellers"
+                                    aria-expanded="false">
+                                    Travellers
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="travellers">
+                                    <a href="#" class="dropdown-item">Open Travellers Details</a>
+                                </ul>
+                                <button 
+                                    type="button" 
+                                    class="bg-white dropdown-toggle border border-dark-subtle rounded p-2 me-2"
+                                    data-bs-toggle="dropdown"
+                                    id="price_details"
+                                    aria-expanded="false">
+                                    Price Details
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="price_details">
+                                    <a href="#" class="dropdown-item">Open Price Details</a>
+                                </ul>
+                                <button 
+                                    type="button" 
+                                    class="bg-white dropdown-toggle border border-dark-subtle rounded p-2 me-2"
+                                    data-bs-toggle="dropdown"
+                                    id="fop"
+                                    aria-expanded="false">
+                                    FOP
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="fop">
+                                    <a href="#" class="dropdown-item">Open FOP Details</a>
+                                </ul>
+                                <button 
+                                    type="button" 
+                                    class="bg-white dropdown-toggle border border-dark-subtle rounded p-2 me-2"
+                                    data-bs-toggle="dropdown"
+                                    id="fare_rules"
+                                    aria-expanded="false">
+                                    Fare Rules
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="fare_rules">
+                                    <a href="#" class="dropdown-item">Open Rules</a>
+                                </ul>
+                                <div class="d-flex ms-auto">
+                                    <button 
+                                        type="button" 
+                                        class="dropdown-toggle border border-light-subtle rounded p-2 me-2"
+                                        data-bs-toggle="dropdown"
+                                        id="comments"
+                                        aria-expanded="false">
+                                        <i class="fa-regular fa-comments"></i>
+                                        Comment
+                                        <span class="bg-white p-1">12</span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="comments">
+                                        <a href="#" class="dropdown-item">Open Comments</a>
+                                    </ul>
+                                    <button 
+                                        type="button" 
+                                        class="dropdown-toggle border border-light-subtle rounded p-2 me-2"
+                                        data-bs-toggle="dropdown"
+                                        id="likes"
+                                        aria-expanded="false">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Liked
+                                        <span class="bg-white p-1">76</span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="likes">
+                                        <a href="#" class="dropdown-item">Open Likes</a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/30cf8e3e31.js" crossorigin="anonymous"></script>     
+</body>
+</html>
